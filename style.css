@@ -91,7 +91,7 @@ h3 {
     color: var(--dark-font);
     padding: 40px 25px;
     bottom: -600px;
-    transition: ease-out 1s;
+    transition: ease-out .5s;
     max-height: 100%;
     overflow: auto;
 }
@@ -137,6 +137,7 @@ input {
 input::placeholder {
     font: var(--search-font);
     color: #cbc2f3;
+    letter-spacing: 2px;
 }
 
 input:focus {
