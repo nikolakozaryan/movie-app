@@ -110,7 +110,7 @@ h3 {
 
 .rating {
     box-sizing: border-box;
-    padding: 7px;
+    padding: 10px;
     border-radius: 10px;
     background: var(--dark-purple);
 }
