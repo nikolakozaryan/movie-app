@@ -61,7 +61,7 @@ h3 {
 
 .movie-item {
     width: 300px;
-    height: 545px;
+    min-height: 545px;
     overflow: hidden;
     background-color: var(--light-purple);
     position: relative;
@@ -73,7 +73,7 @@ h3 {
 }
 
 .summary {
-    height: 100px;
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
